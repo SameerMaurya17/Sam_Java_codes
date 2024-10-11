@@ -1,6 +1,6 @@
-package com.practice.Recursion;
+package com.practice.Assignments;
 
-public class Q2_BinarySearchingUsingRecursion {
+public class P18_BinarySearchingUsingRecursion {
 
     public static void main(String[] args) {
 

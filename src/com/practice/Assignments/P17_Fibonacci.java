@@ -1,7 +1,7 @@
-package com.practice.Recursion;
+package com.practice.Assignments;
 
 import java.util.Scanner;
-public class Q1_Fibonacci {
+public class P17_Fibonacci {
 
     public static void main(String[] args) {
 

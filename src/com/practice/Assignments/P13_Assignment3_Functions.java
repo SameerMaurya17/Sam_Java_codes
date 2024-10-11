@@ -1,4 +1,4 @@
-package com.practice;
+package com.practice.Assignments;
 import java.util.Scanner;
 
 public class P13_Assignment3_Functions {

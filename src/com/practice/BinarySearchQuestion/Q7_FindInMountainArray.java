@@ -2,8 +2,6 @@ package com.practice.BinarySearchQuestion;
 
 //https://leetcode.com/problems/find-in-mountain-array/
 
-import com.practice.P8_ArmStrongNumber;
-
 public class Q7_FindInMountainArray {
 
     public static void main(String[] args){

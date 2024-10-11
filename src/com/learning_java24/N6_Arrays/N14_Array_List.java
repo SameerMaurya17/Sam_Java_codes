@@ -1,4 +1,5 @@
 package com.learning_java24.N6_Arrays;
+import java.util.Arrays;
 import java.util.Scanner;
 import java.util.ArrayList;
 
@@ -13,7 +14,10 @@ public class N14_Array_List {
         // Syntax
         ArrayList<Integer> list = new ArrayList<Integer>(10); // ArrayList<(Enter the datatype of elements in array)> arrayName = Arraylist<(optional to write datatype)>(Enter the capacity of array);
 
-        // Inputing values manually
+        // Using Arrays.asList to Initializing the list
+        ArrayList<Integer> list1 = new ArrayList<>(Arrays.asList(1,2,3,4,5)); // For Declaring and Initializing in one line
+
+        // For inputing values manually
 
 //        list.add(1);
 //        list.add(2);

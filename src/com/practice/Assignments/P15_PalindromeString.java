@@ -1,4 +1,4 @@
-package com.practice;
+package com.practice.Assignments;
 
 public class P15_PalindromeString {
 

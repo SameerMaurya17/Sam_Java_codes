@@ -1,4 +1,4 @@
-package com.practice;
+package com.practice.Assignments;
 import java.util.Scanner;
 import java.util.Arrays;
 
