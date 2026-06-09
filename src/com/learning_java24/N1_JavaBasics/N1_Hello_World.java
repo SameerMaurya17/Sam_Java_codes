@@ -1,5 +1,4 @@
 package com.learning_java24.N1_JavaBasics;
-
 public class N1_Hello_World {
 
     public static void main(String[] args){

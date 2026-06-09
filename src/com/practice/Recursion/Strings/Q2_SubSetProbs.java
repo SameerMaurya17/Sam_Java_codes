@@ -11,8 +11,8 @@ public class Q2_SubSetProbs {
         int[] arr = {1,2,2};
         String str = "abc";
 
-        List<List<Integer>> ans = subsetDuplicate(arr);
-//        List<List<Integer>> ans = subset(arr);
+//        List<List<Integer>> ans = subsetDuplicate(arr);
+        List<List<Integer>> ans = subset(arr);
 //        ArrayList<String> ans = subsetAscii("",str);
         System.out.println(ans);
 

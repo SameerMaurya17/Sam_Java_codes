@@ -3,14 +3,17 @@ public class Q1_Stream {
 
     public static void main(String[] args) {
 
-//        String str = "sameer";
-        String str = "sameer maurya";
+        String str = "sameer";
+        String str2 = "sameer maurya";
 
+        SkipingAchar(str,"");
+        SkipingAStr(str,"");
         SkipingStrIfNotRequired(str,"");
+        SkipingStrIfNotRequired(str2,"");
 
     }
 
-    // Skiping a string if it's not the required string
+    // Skipping a string if it's not the required string
 
     public static void SkipingStrIfNotRequired(String str, String p) {
 
@@ -26,7 +29,7 @@ public class Q1_Stream {
         }
     }
 
-    // Skiping a String from a character
+    // Skipping a String from a character
     public static void SkipingAStr(String str, String p) {
 
         if (str.isEmpty()) {
@@ -41,7 +44,7 @@ public class Q1_Stream {
         }
     }
 
-    // Skiping a character from a string
+    // Skipping a character from a string
     public static void SkipingAchar(String str, String p) {
 
         if (str.isEmpty()) {

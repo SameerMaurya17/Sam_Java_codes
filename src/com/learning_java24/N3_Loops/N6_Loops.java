@@ -35,6 +35,16 @@ public class N6_Loops{
             i++;
         }while(i<=n);
 
+
+        int[] numbers = {10, 20, 30, 40, 50};
+
+        System.out.println("Elements of the array:");
+
+        // Enhanced for loop (for-each loop)
+        for (int num : numbers) {
+            System.out.println(num);
+        }
+
     }
 
 }

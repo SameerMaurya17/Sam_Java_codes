@@ -1,10 +1,25 @@
 package com.sam;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
 
 public class Practise{
 
     public static void main(String[] args){
+
+        List<Integer> list = new ArrayList<>();
+        List<Integer> list2 = new ArrayList<>();
+
+        list.add(4);
+        list2.add(4);
+
+
+
+        System.out.println(list.contains(4));
+        System.out.println(list.get(0) == list2.get(0));
+
 
         int[][] matrix = {
                 {10,20,30},

@@ -1,6 +1,8 @@
 package com.sam;
 
 import java.util.Arrays;
+import java.util.ArrayList;
+import java.util.List;
 
 public class kajfsldk {
 
@@ -8,8 +10,12 @@ public class kajfsldk {
 
         int[] arr = {0,4,0};
         String str = "sameer";
+        int[] nums = { 1,2,2,3,2};
 
-        System.out.println(Arrays.toString(productExceptSelf(arr)));
+        System.out.println('3'-'1');
+        
+
+//        System.out.println(Arrays.toString(productExceptSelf(arr)));
 //            Arrays.sort(arr);
 //        System.out.println(Arrays.toString(arr));
 //        System.out.println(largestSumAfterKNegations1(arr,2));

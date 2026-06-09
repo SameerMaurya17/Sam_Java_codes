@@ -8,7 +8,7 @@ public class N8_Scope {
 
 //        int num1 = 2, num2 = 4;
 //        swap(num1, num2);
-//      //  System.out.println(a+" "+b); // Gives an error cause A and B scope is limited to the swap Function
+////        System.out.println(a+" "+b); // Gives an error cause A and B scope is limited to the swap Function
 
     // Block Scope
 

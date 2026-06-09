@@ -1,0 +1,8 @@
+/*
+
+Collection API -> concept
+Collection -> Interface
+Collections -> classes with multiple methods
+			    different type of data structures
+
+ */

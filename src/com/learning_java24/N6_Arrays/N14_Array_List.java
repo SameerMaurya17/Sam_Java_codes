@@ -28,7 +28,7 @@ public class N14_Array_List {
 
         // Printing values manually
 
-        //System.out.println(list); // Basically is Arrays.toString(arr)
+//        System.out.println(list); // Basically is Arrays.toString(arr)
         //System.out.println(list.get(1)); // It's like arr[1] to print||get the index value
 
         // Inputing values Dynamically

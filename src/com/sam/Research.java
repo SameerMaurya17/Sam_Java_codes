@@ -5,76 +5,48 @@ import java.util.Arrays;
 
 public class Research {
 
+
+
     public static void main(String[] args) {
 
-        int[] a = {3,1};
-        int x = 1;
+//        Object[] arr = new Object[3];
+//
+//        arr[0] = 3;
+//        arr[1] = "hello luv";
+//
+//        Research[] obj = new Research[5];
+//
+//        obj[0] = new Research();
+//
+//        System.out.println(obj[0]);
 
-        int ans = seachingInRange(a,x);
+        int[] nums1 = {4,1,2};
+        int[] nums2 = {1,3,4,2};
 
-        System.out.println(ans);
-
-    }
-
-    static int seachingInRange(int[]nums, int target){
-
-        int pivot = findPivot(nums);
-
-        if(pivot == -1){
-            return binarySearch(nums,target,0,nums.length - 1);
-        }
-        if(nums[pivot] == target){
-            return pivot;
-        }
-        if(nums[0] <= target){
-            return binarySearch(nums,target,0,pivot - 1);
-        }
-        return binarySearch(nums,target,pivot + 1,nums.length - 1);
+        System.out.println(Arrays.toString(nextGreaterElement(nums1,nums2)));
 
     }
-    static int findPivot(int[] arr){
 
-        int start = 0;
-        int end = arr.length - 1;
-
-        while(start <= end){
-
-            int mid = start + (end - start) / 2;
-
-            if((mid + 1) < arr.length && arr[mid] > arr[mid + 1]){
-                return mid;
+    public static int[] nextGreaterElement(int[] nums1, int[] nums2) {
+        for(int i = 0;i < nums1.length; i++){
+            boolean flag = true;
+            for(int j = 0;j < nums2.length; j++){
+                if(nums1[i]==nums2[j]){
+                    for(int k = j;k < nums2.length; k++){
+                        if(nums1[i] < nums2[k]){
+                            nums1[i] = nums2[k];
+                            flag = false;
+                            break;
+                        }
+                    }
+                    break;
+                }
             }
-            if((mid - 1) > 0 && arr[mid - 1] > arr[mid]){
-                return mid - 1;
+            if(flag){
+                nums1[i] = -1;
             }
-
-            if(arr[mid] > arr[end]){
-                start = mid + 1;
-            }else{
-                end = mid - 1;
-            }
-
         }
-        return -1;
-    }
-    static  int binarySearch(int[] nums, int target, int start, int end){
-
-        while(start <= end){
-
-            int mid = start + (end - start) / 2;
-
-            if(nums[mid] == target){
-                return mid;
-            }
-
-            if(nums[mid] < target){
-                start = mid + 1;
-            }else{
-                end = mid - 1;
-            }
-
-        }
-        return - 1;
+        return nums1;
     }
 
 }
