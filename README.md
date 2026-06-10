@@ -100,7 +100,4 @@ Java_DSA24/
 
 ## Author
 
-**Sameer Maurya**
-
-B.Tech Computer Science Engineering Student
-Symbiosis Institute of Technology, Pune
+**Sameer Mourya**
